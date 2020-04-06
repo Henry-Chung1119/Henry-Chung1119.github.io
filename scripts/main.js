@@ -12,7 +12,7 @@ function brflash(f){
             f.style.color = "black";
         }
     }
-}(f)
+}
 
 function textflash(){
     setInterval(brflash(flash),500);
